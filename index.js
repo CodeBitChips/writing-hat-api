@@ -29,3 +29,5 @@ app.use("/api/responses", responseRoute);
 app.listen("5000", () => {
   console.log("Backend is running.");
 });
+
+modules.exports = app
