@@ -30,4 +30,4 @@ app.listen("5000", () => {
   console.log("Backend is running.");
 });
 
-modules.exports = app
+module.exports = app
